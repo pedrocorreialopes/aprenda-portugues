@@ -70,3 +70,21 @@ if (userAnswer === correct) {
     "Resposta incorreta. Revise a regra de acentuação aplicada a esse tipo de palavra.";
   feedback.className = "feedback error";
 }
+if (userAnswer === correct) {
+  feedback.textContent =
+    "Resposta correta. A grafia segue a regra ortográfica apresentada neste tópico.";
+  feedback.className = "feedback success";
+} else {
+  feedback.textContent =
+    "Resposta incorreta. Revise a regra ortográfica correspondente antes de tentar novamente.";
+  feedback.className = "feedback error";
+}
+if (userAnswer === correct) {
+  feedback.textContent =
+    "Resposta correta. A classificação semântica foi identificada corretamente com base no sentido da palavra no contexto.";
+  feedback.className = "feedback success";
+} else {
+  feedback.textContent =
+    "Resposta incorreta. Observe o contexto e a definição do conceito antes de responder.";
+  feedback.className = "feedback error";
+}
