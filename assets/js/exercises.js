@@ -88,3 +88,30 @@ if (userAnswer === correct) {
     "Resposta incorreta. Observe o contexto e a definição do conceito antes de responder.";
   feedback.className = "feedback error";
 }
+if (userAnswer === correct) {
+  feedback.textContent =
+    "Resposta correta. A palavra exerce essa função de acordo com sua classe gramatical na frase.";
+  feedback.className = "feedback success";
+} else {
+  feedback.textContent =
+    "Resposta incorreta. Analise a função da palavra no contexto da frase antes de responder.";
+  feedback.className = "feedback error";
+}
+if (userAnswer === correct) {
+  feedback.textContent =
+    "Resposta correta. O exercício envolve flexão nominal, indicando gênero, número ou grau.";
+  feedback.className = "feedback success";
+} else {
+  feedback.textContent =
+    "Resposta incorreta. Analise o tipo de flexão nominal exigido na frase.";
+  feedback.className = "feedback error";
+}
+if (userAnswer === correct) {
+  feedback.textContent =
+    "Resposta correta. A forma verbal foi identificada conforme o modo, tempo, pessoa ou estrutura verbal.";
+  feedback.className = "feedback success";
+} else {
+  feedback.textContent =
+    "Resposta incorreta. Analise o modo, o tempo e o contexto em que o verbo foi empregado.";
+  feedback.className = "feedback error";
+}
