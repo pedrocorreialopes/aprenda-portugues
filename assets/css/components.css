@@ -1,0 +1,101 @@
+.module-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  transition: transform var(--transition);
+}
+
+.module-card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: var(--secondary);
+  color: white;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: background var(--transition);
+}
+
+.btn:hover {
+  background: var(--primary);
+}
+.content-section {
+  margin-bottom: 2.5rem;
+}
+
+.example-box,
+.text-box {
+  background: #eef2ff;
+  padding: 1rem;
+  border-left: 4px solid var(--primary);
+  margin-top: 1rem;
+  border-radius: var(--radius);
+}
+
+.exercise label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.feedback {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.feedback.success {
+  color: var(--success);
+  animation: pulse 0.4s ease;
+}
+
+.feedback.error {
+  color: var(--error);
+  animation: shake 0.4s ease;
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.03); }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(4px); }
+  75% { transform: translateX(-4px); }
+  100% { transform: translateX(0); }
+}
+.term {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.exercise input[type="text"] {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 0.5rem;
+}
+.alert-box {
+  background: #fff7ed;
+  border-left: 4px solid #f97316;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: var(--radius);
+}
+
+.feedback strong {
+  font-weight: 700;
+}
+.example-box strong {
+  color: var(--primary);
+}
+
+.content-section h3 {
+  margin-top: 1rem;
+}
+
