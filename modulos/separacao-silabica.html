@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Separação Silábica | Português</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <link rel="stylesheet" href="../assets/css/layout.css" />
+  <link rel="stylesheet" href="../assets/css/components.css" />
+</head>
+<body>
+
+<header class="header">
+  <h1>Separação Silábica</h1>
+  <p>Módulo 03 — Língua Portuguesa</p>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html" class="active">Separação Silábica</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>Conceito de Sílaba</h2>
+    <p>
+      Sílaba é o fonema ou grupo de fonemas pronunciados em uma só emissão de voz.
+    </p>
+  </section>
+
+  <!-- NORMAS GERAIS -->
+  <section class="content-section">
+    <h2>Normas Gerais</h2>
+    <p>
+      A separação silábica deve obedecer à divisão natural dos sons na pronúncia.
+    </p>
+  </section>
+
+  <!-- DITONGOS E TRITONGOS -->
+  <section class="content-section">
+    <h2>Ditongos e Tritongos</h2>
+    <p>
+      Ditongos e tritongos <strong>não se separam</strong>.
+    </p>
+
+    <div class="example-box">
+      <p>pai, céu, quais</p>
+    </div>
+  </section>
+
+  <!-- HIATO -->
+  <section class="content-section">
+    <h2>Hiato</h2>
+    <p>
+      As vogais do hiato devem ser separadas.
+    </p>
+
+    <div class="example-box">
+      <p>sa-ú-de, ca-a-tinga</p>
+    </div>
+  </section>
+
+  <!-- DÍGRAFOS -->
+  <section class="content-section">
+    <h2>Dígrafos</h2>
+
+    <h3>Dígrafos Inseparáveis</h3>
+    <p>Não se separam.</p>
+    <div class="example-box">
+      <p>cha-ve, fa-lha</p>
+    </div>
+
+    <h3>Dígrafos Separáveis</h3>
+    <p>Devem ser separados.</p>
+    <div class="example-box">
+      <p>as-sar, pas-sar</p>
+    </div>
+  </section>
+
+  <!-- ENCONTROS CONSONANTAIS -->
+  <section class="content-section">
+    <h2>Encontros Consonantais</h2>
+
+    <p>
+      Quando perfeitos, não se separam; quando imperfeitos, separam-se.
+    </p>
+
+    <div class="example-box">
+      <p>pra-to, ap-to</p>
+    </div>
+  </section>
+
+  <!-- VOGAIS IDÊNTICAS -->
+  <section class="content-section">
+    <h2>Vogais Idênticas</h2>
+    <p>
+      Vogais idênticas juntas devem ser separadas.
+    </p>
+
+    <div class="example-box">
+      <p>vo-o, le-e-ite</p>
+    </div>
+  </section>
+
+  <!-- PREFIXOS -->
+  <section class="content-section">
+    <h2>Prefixos</h2>
+
+    <h3>Prefixos terminados em consoante</h3>
+    <p>Devem ser separados.</p>
+    <div class="example-box">
+      <p>sub-li-nhar</p>
+    </div>
+
+    <h3>Prefixos terminados em vogal</h3>
+    <p>Não se separam.</p>
+    <div class="example-box">
+      <p>re-e-lei-ção</p>
+    </div>
+
+    <div class="alert-box">
+      <strong>Atenção:</strong> a separação deve respeitar a pronúncia correta.
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- EXERCÍCIO 1 -->
+    <div class="exercise" data-correct="hiato">
+      <p>A palavra <strong>saúde</strong> apresenta:</p>
+      <label><input type="radio" name="s1" value="ditongo"> Ditongo</label>
+      <label><input type="radio" name="s1" value="hiato"> Hiato</label>
+      <button class="btn check-btn">Verificar</button>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- EXERCÍCIO 2 -->
+    <div class="exercise" data-correct="as-sar">
+      <p>Separe corretamente a palavra <strong>assar</strong>:</p>
+      <input type="text" placeholder="Use hífen" />
+      <button class="btn check-btn">Verificar</button>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- EXERCÍCIO 3 -->
+    <div class="exercise" data-correct="true">
+      <p>Em “sub-lin-har”, o prefixo foi separado corretamente.</p>
+      <label><input type="radio" name="s3" value="true"> Verdadeiro</label>
+      <label><input type="radio" name="s3" value="false"> Falso</label>
+      <button class="btn check-btn">Verificar</button>
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Português – Módulo Separação Silábica</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

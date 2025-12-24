@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fonética | Português</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <link rel="stylesheet" href="../assets/css/layout.css" />
+  <link rel="stylesheet" href="../assets/css/components.css" />
+</head>
+<body>
+
+<header class="header">
+  <h1>Fonética</h1>
+  <p>Módulo 02 — Língua Portuguesa</p>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação</a></li>
+    <li><a href="fonetica.html" class="active">Fonética</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITOS -->
+  <section class="content-section">
+    <h2>Fonética</h2>
+    <p>
+      <strong>Fonética</strong> é a parte da gramática que estuda os sons da fala,
+      isto é, os fonemas emitidos pelo aparelho fonador.
+    </p>
+  </section>
+
+  <section class="content-section">
+    <h2>Fonologia</h2>
+    <p>
+      <strong>Fonologia</strong> é a parte da gramática que estuda a função dos sons
+      na formação e distinção das palavras.
+    </p>
+  </section>
+
+  <!-- VOGAIS -->
+  <section class="content-section">
+    <h2>Vogais</h2>
+    <div class="example-box">
+      <p><strong>Vogais:</strong> a, e, i, o, u</p>
+    </div>
+  </section>
+
+  <!-- CONSOANTES -->
+  <section class="content-section">
+    <h2>Consoantes</h2>
+    <p>
+      As consoantes são fonemas produzidos com obstáculo à passagem do ar.
+    </p>
+  </section>
+
+  <!-- SEMIVOGAIS -->
+  <section class="content-section">
+    <h2>Semivogais</h2>
+    <p>
+      As semivogais são os fonemas <span class="term">i</span> e <span class="term">u</span>
+      quando acompanham uma vogal na mesma sílaba.
+    </p>
+  </section>
+
+  <!-- ENCONTROS VOCÁLICOS -->
+  <section class="content-section">
+    <h2>Encontros Vocálicos</h2>
+
+    <h3>Ditongo</h3>
+    <p>Encontro de uma vogal com uma semivogal na mesma sílaba.</p>
+
+    <h3>Hiato</h3>
+    <p>Encontro de duas vogais em sílabas diferentes.</p>
+
+    <h3>Tritongo</h3>
+    <p>Encontro de uma semivogal, uma vogal e outra semivogal na mesma sílaba.</p>
+  </section>
+
+  <!-- DÍGRAFOS -->
+  <section class="content-section">
+    <h2>Dígrafos</h2>
+    <p>
+      Dígrafo é o encontro de duas letras que representam um único fonema.
+    </p>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- EXERCÍCIO 1 -->
+    <div class="exercise" data-correct="ditongo">
+      <p>A palavra <strong>pai</strong> apresenta:</p>
+
+      <label>
+        <input type="radio" name="f1" value="hiato"> Hiato
+      </label>
+      <label>
+        <input type="radio" name="f1" value="ditongo"> Ditongo
+      </label>
+
+      <button class="btn check-btn">Verificar</button>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- EXERCÍCIO 2 -->
+    <div class="exercise" data-correct="true">
+      <p>Em "sa-ú-de", ocorre hiato.</p>
+
+      <label>
+        <input type="radio" name="f2" value="true"> Verdadeiro
+      </label>
+      <label>
+        <input type="radio" name="f2" value="false"> Falso
+      </label>
+
+      <button class="btn check-btn">Verificar</button>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- EXERCÍCIO 3 -->
+    <div class="exercise" data-correct="fonema">
+      <p>O menor som da língua é chamado de:</p>
+
+      <input type="text" placeholder="Digite sua resposta" />
+
+      <button class="btn check-btn">Verificar</button>
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Português – Módulo Fonética</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>
