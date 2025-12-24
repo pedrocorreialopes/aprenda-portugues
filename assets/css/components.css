@@ -122,4 +122,35 @@
 .compare-box p {
   margin-bottom: 0.5rem;
 }
+.content-section ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
 
+.content-section ul li {
+  margin-bottom: 0.4rem;
+}
+
+.alert-box {
+  background: #fff3cd;
+  padding: 1rem;
+  border-left: 4px solid #ffc107;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+.simple-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.simple-table th,
+.simple-table td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.simple-table th {
+  background-color: #f0f0f0;
+}
