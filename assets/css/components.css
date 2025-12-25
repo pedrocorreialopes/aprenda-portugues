@@ -161,3 +161,22 @@
   border-radius: 4px;
   margin-top: 1rem;
 }
+.alert-box {
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+.compare-box {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.compare-box > div {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+}
