@@ -142,3 +142,16 @@ if (userAnswer === correct) {
     "Resposta incorreta. Verifique se o termo exige complemento com ou sem preposição.";
   feedback.className = "feedback error";
 }
+if (userAnswer === correct) {
+  feedback.textContent =
+    "Resposta correta. O termo anterior exige a preposição 'a' e o termo seguinte admite artigo feminino, ocorrendo crase.";
+  feedback.className = "feedback success";
+} else {
+  feedback.textContent =
+    "Resposta incorreta. Verifique se há exigência de preposição e se o termo seguinte admite artigo feminino.";
+  feedback.className = "feedback error";
+}
+feedback.textContent =
+  "Resposta correta. Há palavra atrativa, o que exige próclise segundo a norma culta.";
+feedback.textContent =
+  "Resposta correta. A vírgula não pode separar o sujeito do verbo, pois isso quebra a estrutura sintática da frase.";
