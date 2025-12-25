@@ -124,3 +124,21 @@ if (userAnswer === correct) {
     "Resposta incorreta. Identifique o substantivo (núcleo) e ajuste as palavras que devem concordar com ele.";
   feedback.className = "feedback error";
 }
+if (userAnswer === correct) {
+  feedback.textContent =
+    "Resposta correta. O verbo concorda com o núcleo do sujeito, respeitando número e pessoa.";
+  feedback.className = "feedback success";
+} else {
+  feedback.textContent =
+    "Resposta incorreta. Identifique o núcleo do sujeito e ajuste o verbo conforme número e pessoa.";
+  feedback.className = "feedback error";
+}
+if (userAnswer === correct) {
+  feedback.textContent =
+    "Resposta correta. Identificou-se corretamente a regência, o termo regente e a preposição exigida.";
+  feedback.className = "feedback success";
+} else {
+  feedback.textContent =
+    "Resposta incorreta. Verifique se o termo exige complemento com ou sem preposição.";
+  feedback.className = "feedback error";
+}
