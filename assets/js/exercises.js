@@ -115,3 +115,12 @@ if (userAnswer === correct) {
     "Resposta incorreta. Analise o modo, o tempo e o contexto em que o verbo foi empregado.";
   feedback.className = "feedback error";
 }
+if (userAnswer === correct) {
+  feedback.textContent =
+    "Resposta correta. O adjetivo concorda em gênero e número com o substantivo, que é o núcleo do sintagma nominal.";
+  feedback.className = "feedback success";
+} else {
+  feedback.textContent =
+    "Resposta incorreta. Identifique o substantivo (núcleo) e ajuste as palavras que devem concordar com ele.";
+  feedback.className = "feedback error";
+}
