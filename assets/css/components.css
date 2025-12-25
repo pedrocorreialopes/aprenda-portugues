@@ -154,3 +154,10 @@
 .simple-table th {
   background-color: #f0f0f0;
 }
+.alert-box {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
