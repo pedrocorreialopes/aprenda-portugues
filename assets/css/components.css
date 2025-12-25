@@ -180,3 +180,15 @@
   padding: 1rem;
   border-radius: 6px;
 }
+.compare-box {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.compare-box > div {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+}
