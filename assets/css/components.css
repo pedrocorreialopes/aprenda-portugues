@@ -192,3 +192,33 @@
   padding: 1rem;
   border-radius: 6px;
 }
+.hero {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.hero .btn {
+  margin-top: 1.5rem;
+}
+
+.modules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.modules-grid a {
+  display: block;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.3s;
+}
+
+.modules-grid a:hover {
+  background: #e0e0e0;
+}
