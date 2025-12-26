@@ -222,3 +222,34 @@
 .modules-grid a:hover {
   background: #e0e0e0;
 }
+.exercise {
+  margin-bottom: 2rem;
+}
+
+.exercise button {
+  display: block;
+  margin: 0.4rem 0;
+  padding: 0.6rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #c8e6c9;
+}
+
+.wrong {
+  background-color: #ffcdd2;
+}
+
+.feedback {
+  margin-top: 0.8rem;
+}
+
+.correct-text {
+  color: #2e7d32;
+}
+
+.wrong-text {
+  color: #c62828;
+}
