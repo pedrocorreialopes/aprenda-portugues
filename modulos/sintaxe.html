@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sintaxe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Sintaxe</h1>
+    <p class="subtitle">
+      Estudo da organização das palavras na frase e de suas funções sintáticas.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que é sintaxe</h2>
+
+    <p>
+      Sintaxe é a parte da gramática que estuda a organização das palavras
+      na frase e as relações que elas estabelecem entre si.
+    </p>
+
+    <div class="alert-box">
+      A sintaxe não analisa o significado isolado das palavras,
+      mas a função que cada termo exerce dentro da oração.
+    </div>
+  </section>
+
+  <!-- TERMOS ESSENCIAIS -->
+  <section class="content-section">
+    <h2>Termos essenciais da oração</h2>
+
+    <article>
+      <h3>Sujeito</h3>
+      <p>
+        Sujeito é o termo da oração sobre o qual se declara algo.
+        Em regra, é com ele que o verbo concorda.
+      </p>
+
+      <div class="example-box">
+        <p><strong>Exemplo:</strong> <u>O aluno</u> estuda diariamente.</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Predicado</h3>
+      <p>
+        Predicado é tudo aquilo que se declara sobre o sujeito.
+        Seu núcleo é sempre o verbo.
+      </p>
+
+      <div class="example-box">
+        <p><strong>Exemplo:</strong> O aluno <u>estuda diariamente</u>.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- TERMOS INTEGRANTES -->
+  <section class="content-section">
+    <h2>Termos integrantes da oração</h2>
+
+    <article>
+      <h3>Objeto direto</h3>
+      <p>
+        Objeto direto completa o sentido de um verbo transitivo direto,
+        sem o uso de preposição.
+      </p>
+
+      <div class="example-box">
+        <p><strong>Exemplo:</strong> O aluno leu <u>o livro</u>.</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Objeto indireto</h3>
+      <p>
+        Objeto indireto completa o sentido de um verbo transitivo indireto,
+        exigindo o uso de preposição.
+      </p>
+
+      <div class="example-box">
+        <p><strong>Exemplo:</strong> O aluno gosta <u>de leitura</u>.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- TERMOS ACESSÓRIOS -->
+  <section class="content-section">
+    <h2>Termos acessórios da oração</h2>
+
+    <article>
+      <h3>Adjunto adnominal</h3>
+      <p>
+        Adjunto adnominal é o termo que caracteriza ou determina um substantivo.
+      </p>
+
+      <div class="example-box">
+        <p><strong>Exemplo:</strong> <u>Os bons</u> alunos estudam.</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Adjunto adverbial</h3>
+      <p>
+        Adjunto adverbial indica circunstância de tempo, lugar, modo, causa, entre outras.
+      </p>
+
+      <div class="example-box">
+        <p><strong>Exemplo:</strong> O aluno estuda <u>à noite</u>.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Em “O professor explicou <u>a matéria</u>”, o termo destacado exerce a função de:</p>
+
+      <button onclick="checkAnswer(this, false)">a) sujeito</button>
+      <button onclick="checkAnswer(this, true)">b) objeto direto</button>
+      <button onclick="checkAnswer(this, false)">c) adjunto adverbial</button>
+      <button onclick="checkAnswer(this, false)">d) predicativo</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Em “Os alunos dedicados foram aprovados”, o termo “dedicados” é:</p>
+
+      <button onclick="checkAnswer(this, false)">a) objeto direto</button>
+      <button onclick="checkAnswer(this, true)">b) adjunto adnominal</button>
+      <button onclick="checkAnswer(this, false)">c) adjunto adverbial</button>
+      <button onclick="checkAnswer(this, false)">d) predicado</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

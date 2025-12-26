@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Verbo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Verbo</h1>
+    <p class="subtitle">
+      Estudo do verbo, suas flexões e funções na Língua Portuguesa.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que é verbo</h2>
+    <p>
+      Verbo é a palavra que indica ação, estado, mudança de estado ou fenômeno da natureza.
+      É o núcleo do predicado e organiza a estrutura da frase.
+    </p>
+
+    <div class="example-box">
+      <p><strong>Exemplos:</strong></p>
+      <p>estudar, ser, ficar, chover</p>
+    </div>
+  </section>
+
+  <!-- FLEXÕES -->
+  <section class="content-section">
+    <h2>Flexões do verbo</h2>
+
+    <article>
+      <h3>Tempo</h3>
+      <p>Indica quando ocorre a ação.</p>
+      <div class="compare-box">
+        <p><strong>Presente:</strong> estudo</p>
+        <p><strong>Pretérito:</strong> estudei</p>
+        <p><strong>Futuro:</strong> estudarei</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Modo</h3>
+      <p>Indica a atitude do falante em relação ao fato.</p>
+      <div class="compare-box">
+        <p><strong>Indicativo:</strong> certeza</p>
+        <p><strong>Subjuntivo:</strong> hipótese, desejo</p>
+        <p><strong>Imperativo:</strong> ordem, pedido</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Número e pessoa</h3>
+      <p>
+        O verbo concorda com o sujeito em número (singular/plural)
+        e pessoa (1ª, 2ª ou 3ª).
+      </p>
+      <div class="example-box">
+        <p>eu estudo / nós estudamos</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- FORMAS NOMINAIS -->
+  <section class="content-section">
+    <h2>Formas nominais do verbo</h2>
+
+    <article>
+      <h3>Infinitivo</h3>
+      <p>Expressa a ação de forma geral, sem flexão de tempo.</p>
+      <div class="example-box">
+        <p>estudar, aprender</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Gerúndio</h3>
+      <p>Indica ação em andamento.</p>
+      <div class="example-box">
+        <p>estudando, aprendendo</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Particípio</h3>
+      <p>Indica ação concluída.</p>
+      <div class="example-box">
+        <p>estudado, aprendido</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Assinale a alternativa em que o verbo indica ação:</p>
+
+      <button onclick="checkAnswer(this, true)">a) O aluno estuda diariamente.</button>
+      <button onclick="checkAnswer(this, false)">b) O aluno é dedicado.</button>
+      <button onclick="checkAnswer(this, false)">c) O dia está quente.</button>
+      <button onclick="checkAnswer(this, false)">d) A sala permanece limpa.</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Em qual alternativa o verbo está no gerúndio?</p>
+
+      <button onclick="checkAnswer(this, false)">a) estudar</button>
+      <button onclick="checkAnswer(this, true)">b) estudando</button>
+      <button onclick="checkAnswer(this, false)">c) estudou</button>
+      <button onclick="checkAnswer(this, false)">d) estudará</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>
