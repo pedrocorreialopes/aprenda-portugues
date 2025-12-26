@@ -155,3 +155,31 @@ feedback.textContent =
   "Resposta correta. Há palavra atrativa, o que exige próclise segundo a norma culta.";
 feedback.textContent =
   "Resposta correta. A vírgula não pode separar o sujeito do verbo, pois isso quebra a estrutura sintática da frase.";
+function checkAnswer(button, isCorrect) {
+  const exercise = button.closest('.exercise');
+  const feedback = exercise.querySelector('.feedback');
+
+  exercise.querySelectorAll('button').forEach(btn => {
+    btn.disabled = true;
+    btn.classList.remove('correct', 'wrong');
+  });
+
+  if (isCorrect) {
+    button.classList.add('correct');
+    feedback.innerHTML = `
+      <p class="correct-text">
+        Resposta correta. O substantivo indicado expressa um sentimento,
+        caracterizando-se como abstrato.
+      </p>
+    `;
+  } else {
+    button.classList.add('wrong');
+    feedback.innerHTML = `
+      <p class="wrong-text">
+        Resposta incorreta. Observe se o substantivo nomeia um objeto físico
+        ou um sentimento, ação ou estado.
+      </p>
+    `;
+  }
+}
+
