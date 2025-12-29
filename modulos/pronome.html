@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pronome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Pronome</h1>
+    <p class="subtitle">
+      Estudo dos pronomes e de sua função na substituição e determinação dos nomes.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que é pronome</h2>
+
+    <p>
+      Pronome é a palavra que substitui ou acompanha o substantivo,
+      indicando sua relação com as pessoas do discurso.
+    </p>
+
+    <div class="alert-box">
+      O pronome evita repetições e contribui para a coesão do texto.
+    </div>
+  </section>
+
+  <!-- PRONOMES PESSOAIS -->
+  <section class="content-section">
+    <h2>Pronomes pessoais</h2>
+
+    <article>
+      <h3>Pronomes pessoais do caso reto</h3>
+      <p>
+        Exercem a função de sujeito da oração.
+      </p>
+
+      <div class="example-box">
+        <p>eu, tu, ele, nós, vós, eles</p>
+        <p><strong>Exemplo:</strong> <u>Eu</u> estudei bastante.</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Pronomes pessoais do caso oblíquo</h3>
+      <p>
+        Exercem funções diferentes da de sujeito.
+      </p>
+
+      <div class="example-box">
+        <p>me, te, se, o, a, lhe, nos, vos, lhes</p>
+        <p><strong>Exemplo:</strong> Entreguei o livro <u>a ele</u>.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- PRONOMES POSSESSIVOS -->
+  <section class="content-section">
+    <h2>Pronomes possessivos</h2>
+
+    <p>
+      Indicam posse ou relação de pertencimento.
+    </p>
+
+    <div class="example-box">
+      <p>meu, tua, nosso, suas</p>
+      <p><strong>Exemplo:</strong> Este é <u>meu</u> caderno.</p>
+    </div>
+
+    <div class="alert-box">
+      Pronomes possessivos podem gerar ambiguidade.
+      O contexto deve ser claro.
+    </div>
+  </section>
+
+  <!-- PRONOMES DEMONSTRATIVOS -->
+  <section class="content-section">
+    <h2>Pronomes demonstrativos</h2>
+
+    <p>
+      Indicam a posição dos seres no espaço, no tempo ou no discurso.
+    </p>
+
+    <div class="compare-box">
+      <p><strong>este / esta:</strong> perto de quem fala</p>
+      <p><strong>esse / essa:</strong> perto de quem ouve</p>
+      <p><strong>aquele / aquela:</strong> longe de ambos</p>
+    </div>
+
+    <div class="example-box">
+      <p><strong>Exemplo:</strong> <u>Este</u> livro é meu.</p>
+    </div>
+  </section>
+
+  <!-- OUTROS PRONOMES -->
+  <section class="content-section">
+    <h2>Outros tipos de pronomes</h2>
+
+    <article>
+      <h3>Pronomes indefinidos</h3>
+      <p>Referem-se a seres de maneira vaga.</p>
+
+      <div class="example-box">
+        <p>alguém, ninguém, tudo, nada</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Pronomes relativos</h3>
+      <p>Retomam um termo anterior e introduzem uma oração.</p>
+
+      <div class="example-box">
+        <p>que, quem, o qual, cujo</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Pronomes interrogativos</h3>
+      <p>Usados em perguntas diretas ou indiretas.</p>
+
+      <div class="example-box">
+        <p>quem, qual, quanto</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Assinale a alternativa em que o pronome é pessoal do caso reto:</p>
+
+      <button onclick="checkAnswer(this, true)">a) eu</button>
+      <button onclick="checkAnswer(this, false)">b) me</button>
+      <button onclick="checkAnswer(this, false)">c) lhe</button>
+      <button onclick="checkAnswer(this, false)">d) se</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Em “Este livro é meu”, o pronome “este” é:</p>
+
+      <button onclick="checkAnswer(this, true)">a) demonstrativo</button>
+      <button onclick="checkAnswer(this, false)">b) possessivo</button>
+      <button onclick="checkAnswer(this, false)">c) indefinido</button>
+      <button onclick="checkAnswer(this, false)">d) relativo</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>
