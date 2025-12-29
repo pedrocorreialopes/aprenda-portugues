@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Artigo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Artigo</h1>
+    <p class="subtitle">
+      Estudo do artigo e de sua função na determinação do substantivo.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+   <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que é artigo</h2>
+
+    <p>
+      Artigo é a palavra que antecede o substantivo para determiná-lo
+      ou indeterminá-lo, indicando se o ser é conhecido ou não pelo falante.
+    </p>
+
+    <div class="alert-box">
+      O artigo concorda com o substantivo em gênero e número.
+    </div>
+  </section>
+
+  <!-- CLASSIFICAÇÃO -->
+  <section class="content-section">
+    <h2>Classificação dos artigos</h2>
+
+    <article>
+      <h3>Artigo definido</h3>
+      <p>
+        O artigo definido indica que o substantivo se refere a um ser conhecido
+        ou específico.
+      </p>
+
+      <div class="example-box">
+        <p>o, a, os, as</p>
+        <p><strong>Exemplo:</strong> <u>O</u> aluno chegou cedo.</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Artigo indefinido</h3>
+      <p>
+        O artigo indefinido indica que o substantivo se refere a um ser
+        não identificado ou não especificado.
+      </p>
+
+      <div class="example-box">
+        <p>um, uma, uns, umas</p>
+        <p><strong>Exemplo:</strong> <u>Um</u> aluno chegou cedo.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- USO DO ARTIGO -->
+  <section class="content-section">
+    <h2>Uso do artigo</h2>
+
+    <article>
+      <h3>Uso obrigatório</h3>
+      <p>
+        O artigo é usado para determinar substantivos comuns,
+        especialmente quando o contexto exige precisão.
+      </p>
+
+      <div class="example-box">
+        <p><strong>Exemplo:</strong> <u>Os</u> alunos da turma foram aprovados.</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Uso facultativo</h3>
+      <p>
+        Em alguns casos, o uso do artigo é facultativo, dependendo da intenção
+        do falante.
+      </p>
+
+      <div class="compare-box">
+        <p><strong>✔ Com artigo:</strong> Gosto <u>do</u> Brasil.</p>
+        <p><strong>✔ Sem artigo:</strong> Gosto de Brasil.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ARTIGO E CRASE -->
+  <section class="content-section">
+    <h2>Artigo e crase</h2>
+
+    <p>
+      A crase ocorre quando há a fusão da preposição <strong>a</strong>
+      com o artigo feminino <strong>a</strong>.
+    </p>
+
+    <div class="alert-box">
+      Se não houver artigo feminino, não há crase.
+    </div>
+
+    <div class="compare-box">
+      <p><strong>Vou a escola.</strong> (sem artigo → sem crase)</p>
+      <p><strong>Vou à escola.</strong> (com artigo → com crase)</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Assinale a alternativa em que o artigo é definido:</p>
+
+      <button onclick="checkAnswer(this, true)">a) o</button>
+      <button onclick="checkAnswer(this, false)">b) um</button>
+      <button onclick="checkAnswer(this, false)">c) uns</button>
+      <button onclick="checkAnswer(this, false)">d) uma</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Em “Vou à escola”, o uso da crase ocorre porque:</p>
+
+      <button onclick="checkAnswer(this, true)">a) há preposição + artigo feminino</button>
+      <button onclick="checkAnswer(this, false)">b) o verbo exige artigo</button>
+      <button onclick="checkAnswer(this, false)">c) a palavra “escola” é própria</button>
+      <button onclick="checkAnswer(this, false)">d) o artigo é indefinido</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>
