@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vozes Verbais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Vozes Verbais</h1>
+    <p class="subtitle">
+      Estudo da relação entre o sujeito e a ação expressa pelo verbo.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que são vozes verbais</h2>
+
+    <p>
+      Vozes verbais indicam a relação entre o sujeito e a ação expressa pelo verbo,
+      isto é, se o sujeito pratica, sofre ou pratica e sofre a ação.
+    </p>
+
+    <div class="alert-box">
+      A mudança de voz verbal altera a estrutura da frase,
+      mas não o sentido essencial da ação.
+    </div>
+  </section>
+
+  <!-- VOZ ATIVA -->
+  <section class="content-section">
+    <h2>Voz ativa</h2>
+
+    <p>
+      Na voz ativa, o sujeito é o agente da ação verbal.
+    </p>
+
+    <div class="example-box">
+      <p><strong>Exemplo:</strong> <u>O aluno</u> resolveu o exercício.</p>
+    </div>
+
+    <div class="alert-box">
+      A voz ativa é a mais frequente na comunicação cotidiana.
+    </div>
+  </section>
+
+  <!-- VOZ PASSIVA -->
+  <section class="content-section">
+    <h2>Voz passiva</h2>
+
+    <p>
+      Na voz passiva, o sujeito sofre a ação expressa pelo verbo.
+    </p>
+
+    <article>
+      <h3>Voz passiva analítica</h3>
+      <p>
+        É formada por verbo auxiliar + particípio do verbo principal.
+      </p>
+
+      <div class="example-box">
+        <p><strong>Exemplo:</strong> O exercício <u>foi resolvido</u> pelo aluno.</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Voz passiva sintética</h3>
+      <p>
+        É formada com o pronome apassivador <strong>se</strong>.
+      </p>
+
+      <div class="example-box">
+        <p><strong>Exemplo:</strong> <u>Resolveram-se</u> os exercícios.</p>
+      </div>
+    </article>
+
+    <div class="alert-box">
+      Na voz passiva, o verbo concorda com o sujeito paciente.
+    </div>
+  </section>
+
+  <!-- VOZ REFLEXIVA -->
+  <section class="content-section">
+    <h2>Voz reflexiva</h2>
+
+    <p>
+      Na voz reflexiva, o sujeito pratica e sofre a ação ao mesmo tempo.
+    </p>
+
+    <div class="example-box">
+      <p><strong>Exemplo:</strong> O aluno <u>se</u> elogiou.</p>
+    </div>
+  </section>
+
+  <!-- TRANSFORMAÇÃO -->
+  <section class="content-section">
+    <h2>Transformação da voz ativa para a passiva</h2>
+
+    <ol>
+      <li>O objeto direto da ativa torna-se sujeito da passiva.</li>
+      <li>O verbo passa para a forma passiva.</li>
+      <li>O sujeito da ativa torna-se agente da passiva.</li>
+    </ol>
+
+    <div class="compare-box">
+      <p><strong>Ativa:</strong> O professor explicou a matéria.</p>
+      <p><strong>Passiva:</strong> A matéria foi explicada pelo professor.</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Assinale a alternativa em que a frase está na voz passiva:</p>
+
+      <button onclick="checkAnswer(this, false)">a) O aluno fez a prova.</button>
+      <button onclick="checkAnswer(this, true)">b) A prova foi feita pelo aluno.</button>
+      <button onclick="checkAnswer(this, false)">c) O aluno se esforçou.</button>
+      <button onclick="checkAnswer(this, false)">d) O aluno estudou bastante.</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> A frase “Vendem-se casas” está na voz:</p>
+
+      <button onclick="checkAnswer(this, false)">a) ativa</button>
+      <button onclick="checkAnswer(this, true)">b) passiva sintética</button>
+      <button onclick="checkAnswer(this, false)">c) reflexiva</button>
+      <button onclick="checkAnswer(this, false)">d) imperativa</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>
