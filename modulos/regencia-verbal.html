@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Regência Verbal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Regência Verbal</h1>
+    <p class="subtitle">
+      Estudo da relação entre os verbos e as preposições que regem seus complementos.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que é regência verbal</h2>
+
+    <p>
+      Regência verbal é o estudo da relação entre o verbo
+      e os termos que o completam, especialmente no que se refere
+      ao uso ou não de preposição.
+    </p>
+
+    <div class="alert-box">
+      Cada verbo possui uma regência própria,
+      que deve ser respeitada conforme a norma culta.
+    </div>
+  </section>
+
+  <!-- VERBOS SEM PREPOSIÇÃO -->
+  <section class="content-section">
+    <h2>Verbos que não exigem preposição</h2>
+
+    <p>
+      São verbos transitivos diretos, cujo complemento
+      não vem precedido de preposição.
+    </p>
+
+    <div class="example-box">
+      <p><strong>Exemplos:</strong></p>
+      <p>comprar algo • estudar a matéria • ler o livro</p>
+      <p><strong>Frase:</strong> O aluno <u>leu o texto</u>.</p>
+    </div>
+  </section>
+
+  <!-- VERBOS COM PREPOSIÇÃO -->
+  <section class="content-section">
+    <h2>Verbos que exigem preposição</h2>
+
+    <p>
+      São verbos transitivos indiretos, cujo complemento
+      vem obrigatoriamente precedido de preposição.
+    </p>
+
+    <div class="example-box">
+      <p><strong>Exemplos:</strong></p>
+      <p>gostar de • precisar de • confiar em • assistir a</p>
+      <p><strong>Frase:</strong> O aluno <u>gostou de</u> matemática.</p>
+    </div>
+
+    <div class="alert-box">
+      A retirada da preposição compromete a correção gramatical da frase.
+    </div>
+  </section>
+
+  <!-- VERBOS COM DUPLA REGÊNCIA -->
+  <section class="content-section">
+    <h2>Verbos com dupla regência</h2>
+
+    <p>
+      Alguns verbos admitem mais de uma regência,
+      com alteração ou não de sentido.
+    </p>
+
+    <article>
+      <h3>Verbos com mudança de sentido</h3>
+
+      <div class="compare-box">
+        <p><strong>Esquecer algo:</strong> esquecer o compromisso</p>
+        <p><strong>Esquecer de algo:</strong> esquecer de avisar</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Verbos sem mudança de sentido</h3>
+
+      <div class="compare-box">
+        <p><strong>Assistir ao filme</strong></p>
+        <p><strong>Assistir o filme</strong> (forma menos recomendada)</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- REGÊNCIA E CRASE -->
+  <section class="content-section">
+    <h2>Regência verbal e crase</h2>
+
+    <p>
+      A crase depende diretamente da regência do verbo.
+      Se o verbo exige a preposição <strong>a</strong>,
+      pode ocorrer a fusão com o artigo feminino.
+    </p>
+
+    <div class="compare-box">
+      <p><strong>Vou a escola.</strong> (sem artigo → sem crase)</p>
+      <p><strong>Vou à escola.</strong> (preposição + artigo → crase)</p>
+    </div>
+
+    <div class="alert-box">
+      Sem exigência de preposição, não há crase.
+    </div>
+  </section>
+
+  <!-- ERROS COMUNS -->
+  <section class="content-section">
+    <h2>Erros comuns de regência</h2>
+
+    <div class="compare-box">
+      <p>❌ Gostei <u>o</u> filme.</p>
+      <p>✔ Gostei <u>do</u> filme.</p>
+    </div>
+
+    <div class="compare-box">
+      <p>❌ Assisti <u>o</u> jogo.</p>
+      <p>✔ Assisti <u>ao</u> jogo.</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Assinale a alternativa correta quanto à regência:</p>
+
+      <button onclick="checkAnswer(this, false)">a) Gostei o livro.</button>
+      <button onclick="checkAnswer(this, true)">b) Gostei do livro.</button>
+      <button onclick="checkAnswer(this, false)">c) Gostei a livro.</button>
+      <button onclick="checkAnswer(this, false)">d) Gostei livro.</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> O verbo “assistir”, no sentido de ver, exige:</p>
+
+      <button onclick="checkAnswer(this, true)">a) preposição “a”</button>
+      <button onclick="checkAnswer(this, false)">b) objeto direto</button>
+      <button onclick="checkAnswer(this, false)">c) preposição “de”</button>
+      <button onclick="checkAnswer(this, false)">d) verbo auxiliar</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

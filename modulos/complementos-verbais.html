@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Complementos Verbais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Complementos Verbais</h1>
+    <p class="subtitle">
+      Estudo dos termos que completam o sentido dos verbos.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que são complementos verbais</h2>
+
+    <p>
+      Complementos verbais são os termos que completam o sentido
+      dos verbos transitivos, sendo exigidos por eles.
+    </p>
+
+    <div class="alert-box">
+      Se o termo é exigido pelo verbo, trata-se de complemento verbal,
+      e não de adjunto adverbial.
+    </div>
+  </section>
+
+  <!-- OBJETO DIRETO -->
+  <section class="content-section">
+    <h2>Objeto direto</h2>
+
+    <p>
+      Objeto direto é o complemento do verbo transitivo direto,
+      sem o uso de preposição.
+    </p>
+
+    <div class="example-box">
+      <p><strong>Exemplo:</strong> O aluno leu <u>o livro</u>.</p>
+    </div>
+
+    <div class="alert-box">
+      O objeto direto responde, geralmente, às perguntas:
+      “o quê?” ou “quem?”.
+    </div>
+  </section>
+
+  <!-- OBJETO INDIRETO -->
+  <section class="content-section">
+    <h2>Objeto indireto</h2>
+
+    <p>
+      Objeto indireto é o complemento do verbo transitivo indireto,
+      sempre acompanhado de preposição.
+    </p>
+
+    <div class="example-box">
+      <p><strong>Exemplo:</strong> O aluno gostou <u>de matemática</u>.</p>
+    </div>
+
+    <div class="alert-box">
+      O objeto indireto responde, geralmente, às perguntas:
+      “de quê?”, “a quem?”, “em quê?”.
+    </div>
+  </section>
+
+  <!-- OBJETO DIRETO E INDIRETO -->
+  <section class="content-section">
+    <h2>Objeto direto e objeto indireto</h2>
+
+    <p>
+      Alguns verbos exigem dois complementos:
+      um sem preposição e outro com preposição.
+    </p>
+
+    <div class="example-box">
+      <p><strong>Exemplo:</strong> O professor entregou <u>o material</u> <u>aos alunos</u>.</p>
+    </div>
+  </section>
+
+  <!-- COMPLEMENTO × ADJUNTO -->
+  <section class="content-section">
+    <h2>Complemento verbal × adjunto adverbial</h2>
+
+    <div class="compare-box">
+      <p><strong>✔ Complemento:</strong> O aluno precisa <u>de ajuda</u>.</p>
+      <p><strong>✔ Adjunto:</strong> O aluno estuda <u>à noite</u>.</p>
+    </div>
+
+    <div class="alert-box">
+      O adjunto adverbial não é exigido pelo verbo,
+      apenas acrescenta circunstância.
+    </div>
+  </section>
+
+  <!-- PRONOMES OBLÍQUOS -->
+  <section class="content-section">
+    <h2>Complementos verbais e pronomes oblíquos</h2>
+
+    <p>
+      Os complementos verbais podem ser substituídos
+      por pronomes oblíquos.
+    </p>
+
+    <div class="example-box">
+      <p>O aluno leu o livro → O aluno <u>o</u> leu.</p>
+      <p>O aluno entregou o trabalho ao professor → O aluno <u>lhe</u> entregou o trabalho.</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Em “O professor corrigiu as provas”, o termo destacado é:</p>
+
+      <button onclick="checkAnswer(this, true)">a) objeto direto</button>
+      <button onclick="checkAnswer(this, false)">b) objeto indireto</button>
+      <button onclick="checkAnswer(this, false)">c) adjunto adverbial</button>
+      <button onclick="checkAnswer(this, false)">d) predicativo</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Em “O aluno gostou de matemática”, o complemento verbal é:</p>
+
+      <button onclick="checkAnswer(this, false)">a) matemática</button>
+      <button onclick="checkAnswer(this, true)">b) de matemática</button>
+      <button onclick="checkAnswer(this, false)">c) gostou</button>
+      <button onclick="checkAnswer(this, false)">d) aluno</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>
