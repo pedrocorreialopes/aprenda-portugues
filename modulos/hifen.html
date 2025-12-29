@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Módulo — Uso do Hífen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Módulo — Uso do Hífen</h1>
+    <p class="subtitle">
+      Regras práticas e normativas para o uso correto do hífen na Língua Portuguesa.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que é o hífen</h2>
+
+    <p>
+      O hífen é um sinal gráfico usado para ligar palavras ou elementos
+      que formam uma unidade de sentido.
+    </p>
+
+    <div class="alert-box">
+      Após o Acordo Ortográfico, o uso do hífen passou a seguir
+      critérios mais objetivos baseados em prefixos e composição.
+    </div>
+  </section>
+
+  <!-- REGRA GERAL -->
+  <section class="content-section">
+    <h2>Regra geral do uso do hífen</h2>
+
+    <div class="alert-box">
+      Usa-se hífen quando o prefixo termina com a mesma vogal
+      com que se inicia o segundo elemento.
+    </div>
+
+    <div class="compare-box">
+      <p><strong>✔ Usa hífen:</strong> anti-inflamatório, micro-ondas</p>
+      <p><strong>❌ Não usa hífen:</strong> antissocial, autoescola</p>
+    </div>
+  </section>
+
+  <!-- PREFIXOS -->
+  <section class="content-section">
+    <h2>Uso do hífen com prefixos</h2>
+
+    <article>
+      <h3>Prefixos terminados em vogal</h3>
+      <p>
+        Não se usa hífen quando o prefixo termina em vogal
+        e o segundo elemento começa por consoante diferente.
+      </p>
+
+      <div class="compare-box">
+        <p><strong>✔ Correto:</strong> autoescola, infraestrutura</p>
+        <p><strong>❌ Incorreto:</strong> auto-escola, infra-estrutura</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Prefixos terminados em consoante</h3>
+      <p>
+        Usa-se hífen quando o segundo elemento começa pela mesma consoante.
+      </p>
+
+      <div class="compare-box">
+        <p><strong>✔ Correto:</strong> inter-regional, super-resistente</p>
+        <p><strong>❌ Incorreto:</strong> interregional, superresistente</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Prefixos sempre com hífen</h3>
+      <p>
+        Alguns prefixos exigem hífen em qualquer situação.
+      </p>
+
+      <div class="example-box">
+        <p>além-, aquém-, recém-, ex- (ex-presidente)</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- CASOS ESPECIAIS -->
+  <section class="content-section">
+    <h2>Casos especiais</h2>
+
+    <article>
+      <h3>Palavras compostas sem elemento de ligação</h3>
+      <p>
+        Usa-se hífen em palavras compostas que mantêm autonomia semântica.
+      </p>
+
+      <div class="example-box">
+        <p>guarda-chuva, segunda-feira, couve-flor</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Não se usa hífen</h3>
+      <p>
+        Não se usa hífen em palavras que perderam a noção de composição.
+      </p>
+
+      <div class="compare-box">
+        <p><strong>✔ Correto:</strong> mandachuva, paraquedas</p>
+        <p><strong>❌ Incorreto:</strong> manda-chuva, para-quedas</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Assinale a alternativa corretamente escrita:</p>
+
+      <button onclick="checkAnswer(this, false)">a) auto-escola</button>
+      <button onclick="checkAnswer(this, true)">b) autoescola</button>
+      <button onclick="checkAnswer(this, false)">c) infra-estrutura</button>
+      <button onclick="checkAnswer(this, false)">d) anti-social</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Assinale a alternativa em que o uso do hífen está correto:</p>
+
+      <button onclick="checkAnswer(this, true)">a) guarda-chuva</button>
+      <button onclick="checkAnswer(this, false)">b) para-quedas</button>
+      <button onclick="checkAnswer(this, false)">c) manda-chuva</button>
+      <button onclick="checkAnswer(this, false)">d) auto-estrada</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

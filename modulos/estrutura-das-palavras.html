@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Módulo — Estrutura das Palavras</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Módulo — Estrutura das Palavras</h1>
+    <p class="subtitle">
+      Estudo dos elementos que formam as palavras na Língua Portuguesa.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que é estrutura das palavras</h2>
+
+    <p>
+      A estrutura das palavras estuda os elementos que compõem as palavras,
+      analisando como elas são formadas internamente.
+    </p>
+
+    <div class="alert-box">
+      Compreender a estrutura das palavras facilita o domínio da ortografia,
+      da formação de palavras e do uso correto do hífen.
+    </div>
+  </section>
+
+  <!-- RADICAL -->
+  <section class="content-section">
+    <h2>Radical</h2>
+
+    <p>
+      Radical é o elemento básico da palavra, responsável pelo seu significado principal.
+    </p>
+
+    <div class="example-box">
+      <p><strong>Exemplos:</strong></p>
+      <p>pedra → <strong>pedr</strong>eiro</p>
+      <p>feliz → <strong>feliz</strong>mente</p>
+    </div>
+  </section>
+
+  <!-- AFIXOS -->
+  <section class="content-section">
+    <h2>Afixos</h2>
+
+    <p>
+      Afixos são elementos que se unem ao radical para modificar o significado da palavra.
+    </p>
+
+    <article>
+      <h3>Prefixo</h3>
+      <p>
+        Prefixo é o afixo que aparece antes do radical.
+      </p>
+
+      <div class="example-box">
+        <p>infeliz, refazer, desleal</p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Sufixo</h3>
+      <p>
+        Sufixo é o afixo que aparece depois do radical.
+      </p>
+
+      <div class="example-box">
+        <p>felizmente, jogador, leitura</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- VOGAL TEMÁTICA -->
+  <section class="content-section">
+    <h2>Vogal temática</h2>
+
+    <p>
+      Vogal temática é a vogal que liga o radical às desinências,
+      aparecendo principalmente em verbos.
+    </p>
+
+    <div class="example-box">
+      <p>
+        cant<strong>a</strong>r (1ª conjugação)<br>
+        vend<strong>e</strong>r (2ª conjugação)<br>
+        part<strong>i</strong>r (3ª conjugação)
+      </p>
+    </div>
+  </section>
+
+  <!-- DESINÊNCIAS -->
+  <section class="content-section">
+    <h2>Desinências</h2>
+
+    <p>
+      Desinências são elementos que indicam variações gramaticais,
+      como gênero, número, tempo, modo e pessoa.
+    </p>
+
+    <article>
+      <h3>Desinências nominais</h3>
+      <p>
+        Indicam gênero e número nos nomes.
+      </p>
+
+      <div class="example-box">
+        <p>alun<strong>o</strong>, alun<strong>a</strong>, alun<strong>os</strong></p>
+      </div>
+    </article>
+
+    <article>
+      <h3>Desinências verbais</h3>
+      <p>
+        Indicam tempo, modo, número e pessoa nos verbos.
+      </p>
+
+      <div class="example-box">
+        <p>cant<strong>ava</strong>, cant<strong>aremos</strong></p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ELEMENTOS DE LIGAÇÃO -->
+  <section class="content-section">
+    <h2>Elemento de ligação</h2>
+
+    <p>
+      Elementos de ligação são vogais ou consoantes usadas para facilitar
+      a pronúncia em palavras derivadas ou compostas.
+    </p>
+
+    <div class="example-box">
+      <p>caf<strong>e</strong>teira, gas<strong>ô</strong>metro</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Assinale o radical da palavra “infelizmente”:</p>
+
+      <button onclick="checkAnswer(this, false)">a) in</button>
+      <button onclick="checkAnswer(this, true)">b) feliz</button>
+      <button onclick="checkAnswer(this, false)">c) mente</button>
+      <button onclick="checkAnswer(this, false)">d) felizmente</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Em “cantávamos”, o elemento “áva” é:</p>
+
+      <button onclick="checkAnswer(this, false)">a) radical</button>
+      <button onclick="checkAnswer(this, true)">b) desinência verbal</button>
+      <button onclick="checkAnswer(this, false)">c) prefixo</button>
+      <button onclick="checkAnswer(this, false)">d) sufixo</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Módulo — Uso do Porque</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Módulo — Uso do “Porquê”</h1>
+    <p class="subtitle">
+      Diferença entre por que, porque, por quê e porquê na Língua Portuguesa.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- VISÃO GERAL -->
+  <section class="content-section">
+    <h2>As quatro formas do “porque”</h2>
+
+    <div class="alert-box">
+      O uso correto do “porque” depende da função que ele exerce na frase.
+      Não se trata de variação gráfica aleatória.
+    </div>
+
+    <ul>
+      <li><strong>por que</strong> (separado, sem acento)</li>
+      <li><strong>porque</strong> (junto, sem acento)</li>
+      <li><strong>por quê</strong> (separado, com acento)</li>
+      <li><strong>porquê</strong> (junto, com acento)</li>
+    </ul>
+  </section>
+
+  <!-- POR QUE -->
+  <section class="content-section">
+    <h2>Uso de “por que”</h2>
+
+    <p>
+      Usa-se <strong>por que</strong> em perguntas diretas ou indiretas,
+      quando equivale a “por qual razão” ou “pelo qual”.
+    </p>
+
+    <div class="compare-box">
+      <p><strong>✔ Correto:</strong> Por que você faltou ontem?</p>
+      <p><strong>✔ Correto:</strong> Não sei por que ele saiu cedo.</p>
+    </div>
+  </section>
+
+  <!-- PORQUE -->
+  <section class="content-section">
+    <h2>Uso de “porque”</h2>
+
+    <p>
+      Usa-se <strong>porque</strong> para introduzir explicação, causa ou justificativa.
+      Pode ser substituído por “pois” ou “uma vez que”.
+    </p>
+
+    <div class="compare-box">
+      <p><strong>✔ Correto:</strong> Faltei porque estava doente.</p>
+      <p><strong>❌ Incorreto:</strong> Faltei por que estava doente.</p>
+    </div>
+  </section>
+
+  <!-- POR QUÊ -->
+  <section class="content-section">
+    <h2>Uso de “por quê”</h2>
+
+    <p>
+      Usa-se <strong>por quê</strong> quando a expressão aparece no fim da frase
+      ou antes de pontuação forte (ponto, interrogação, exclamação).
+    </p>
+
+    <div class="compare-box">
+      <p><strong>✔ Correto:</strong> Você faltou, por quê?</p>
+      <p><strong>✔ Correto:</strong> Ele saiu cedo. Não explicou por quê.</p>
+    </div>
+  </section>
+
+  <!-- PORQUÊ -->
+  <section class="content-section">
+    <h2>Uso de “porquê”</h2>
+
+    <p>
+      Usa-se <strong>porquê</strong> quando a palavra funciona como substantivo,
+      geralmente precedida de artigo ou outro determinante.
+    </p>
+
+    <div class="compare-box">
+      <p><strong>✔ Correto:</strong> Não entendi o porquê da decisão.</p>
+      <p><strong>❌ Incorreto:</strong> Não entendi o porque da decisão.</p>
+    </div>
+  </section>
+
+  <!-- MÉTODO DECISÓRIO -->
+  <section class="content-section">
+    <h2>Método prático de decisão</h2>
+
+    <div class="alert-box">
+      ✔ Pergunta → <strong>por que</strong><br>
+      ✔ Resposta/explicação → <strong>porque</strong><br>
+      ✔ Final de frase → <strong>por quê</strong><br>
+      ✔ Substantivo → <strong>porquê</strong>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Assinale a alternativa correta:</p>
+
+      <button onclick="checkAnswer(this, false)">a) Não sei porque ele saiu.</button>
+      <button onclick="checkAnswer(this, true)">b) Não sei por que ele saiu.</button>
+      <button onclick="checkAnswer(this, false)">c) Não sei por quê ele saiu.</button>
+      <button onclick="checkAnswer(this, false)">d) Não sei porquê ele saiu.</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Complete corretamente: “Ele não veio ______ estava doente.”</p>
+
+      <button onclick="checkAnswer(this, false)">a) por que</button>
+      <button onclick="checkAnswer(this, true)">b) porque</button>
+      <button onclick="checkAnswer(this, false)">c) por quê</button>
+      <button onclick="checkAnswer(this, false)">d) porquê</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>
