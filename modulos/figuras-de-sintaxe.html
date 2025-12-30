@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Figuras de Sintaxe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Figuras de Sintaxe</h1>
+    <p class="subtitle">
+      Recursos expressivos baseados na organização da frase.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que são figuras de sintaxe</h2>
+
+    <p>
+      Figuras de sintaxe são recursos expressivos
+      que consistem na alteração intencional
+      da ordem, da presença ou da concordância
+      dos termos da oração.
+    </p>
+
+    <div class="alert-box">
+      Diferentemente dos vícios de linguagem,
+      as figuras de sintaxe produzem efeito expressivo.
+    </div>
+  </section>
+
+  <!-- ELIPSE -->
+  <section class="content-section">
+    <h2>Elipse</h2>
+
+    <p>
+      A elipse consiste na omissão de um termo
+      facilmente identificável pelo contexto.
+    </p>
+
+    <div class="example-box">
+      <p>Na sala, (havia) silêncio.</p>
+    </div>
+  </section>
+
+  <!-- ZEUGMA -->
+  <section class="content-section">
+    <h2>Zeugma</h2>
+
+    <p>
+      A zeugma é um tipo de elipse
+      em que o termo omitido já foi expresso anteriormente.
+    </p>
+
+    <div class="example-box">
+      <p>Eu gosto de café; ela, de chá.</p>
+    </div>
+  </section>
+
+  <!-- PLEONASMO -->
+  <section class="content-section">
+    <h2>Pleonasmo</h2>
+
+    <p>
+      O pleonasmo consiste na repetição expressiva
+      de uma ideia, com intenção enfática.
+    </p>
+
+    <div class="example-box">
+      <p>Vi com meus próprios olhos.</p>
+    </div>
+
+    <div class="alert-box">
+      Pleonasmo expressivo ≠ pleonasmo vicioso.
+    </div>
+  </section>
+
+  <!-- ANACOLUTO -->
+  <section class="content-section">
+    <h2>Anacoluto</h2>
+
+    <p>
+      O anacoluto ocorre quando há quebra
+      da estrutura sintática da frase.
+    </p>
+
+    <div class="example-box">
+      <p>Eu, essas coisas não me agradam.</p>
+    </div>
+  </section>
+
+  <!-- HIPÉRBATO -->
+  <section class="content-section">
+    <h2>Hipérbato</h2>
+
+    <p>
+      O hipérbato consiste na inversão
+      da ordem natural dos termos da oração.
+    </p>
+
+    <div class="example-box">
+      <p>Das montanhas, vinha o eco.</p>
+    </div>
+  </section>
+
+  <!-- SILEPSE -->
+  <section class="content-section">
+    <h2>Silepse</h2>
+
+    <p>
+      A silepse ocorre quando a concordância
+      se faz com a ideia, e não com a forma gramatical.
+    </p>
+
+    <div class="example-box">
+      <p>A gente somos felizes.</p>
+      <p>Vossa Excelência está satisfeita.</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Em “Eu gosto de café; ela, de chá”, ocorre:</p>
+
+      <button onclick="checkAnswer(this, false)">a) elipse</button>
+      <button onclick="checkAnswer(this, true)">b) zeugma</button>
+      <button onclick="checkAnswer(this, false)">c) anacoluto</button>
+      <button onclick="checkAnswer(this, false)">d) hipérbato</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Em “Eu, essas coisas não me agradam”, ocorre:</p>
+
+      <button onclick="checkAnswer(this, true)">a) anacoluto</button>
+      <button onclick="checkAnswer(this, false)">b) silepse</button>
+      <button onclick="checkAnswer(this, false)">c) elipse</button>
+      <button onclick="checkAnswer(this, false)">d) pleonasmo</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

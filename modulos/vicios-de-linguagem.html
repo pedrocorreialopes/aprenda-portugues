@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vícios de Linguagem</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Vícios de Linguagem</h1>
+    <p class="subtitle">
+      Desvios expressivos que comprometem a clareza da comunicação.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que são vícios de linguagem</h2>
+
+    <p>
+      Vícios de linguagem são usos inadequados da língua
+      que prejudicam a clareza, a correção ou a expressividade
+      do texto, especialmente na norma-padrão.
+    </p>
+
+    <div class="alert-box">
+      Diferentemente das figuras de linguagem,
+      os vícios não produzem efeito expressivo positivo.
+    </div>
+  </section>
+
+  <!-- CACOFONIA -->
+  <section class="content-section">
+    <h2>Cacofonia</h2>
+
+    <p>
+      A cacofonia ocorre quando a junção de palavras
+      produz som desagradável ou sentido indesejado.
+    </p>
+
+    <div class="example-box">
+      <p><strong>❌</strong> Ele viu ela.</p>
+      <p><strong>✔</strong> Ele a viu.</p>
+    </div>
+  </section>
+
+  <!-- ECO -->
+  <section class="content-section">
+    <h2>Eco</h2>
+
+    <p>
+      O eco ocorre pela repetição excessiva de sons
+      ou palavras próximas.
+    </p>
+
+    <div class="example-box">
+      <p><strong>❌</strong> O aluno dedicado estudou motivado.</p>
+      <p><strong>✔</strong> O aluno dedicado estudou com motivação.</p>
+    </div>
+  </section>
+
+  <!-- HIATO -->
+  <section class="content-section">
+    <h2>Hiato</h2>
+
+    <p>
+      O hiato, como vício de linguagem,
+      ocorre pelo encontro desagradável de vogais.
+    </p>
+
+    <div class="example-box">
+      <p><strong>❌</strong> A aula aconteceu.</p>
+      <p><strong>✔</strong> A lição aconteceu.</p>
+    </div>
+  </section>
+
+  <!-- AMBIGUIDADE -->
+  <section class="content-section">
+    <h2>Ambiguidade</h2>
+
+    <p>
+      A ambiguidade ocorre quando uma frase
+      permite mais de uma interpretação.
+    </p>
+
+    <div class="example-box">
+      <p><strong>❌</strong> Vi o homem com o binóculo.</p>
+      <p><strong>✔</strong> Com o binóculo, vi o homem.</p>
+    </div>
+  </section>
+
+  <!-- PLEONASMO VICIOSO -->
+  <section class="content-section">
+    <h2>Pleonasmo vicioso</h2>
+
+    <p>
+      O pleonasmo vicioso é a repetição desnecessária
+      de uma ideia.
+    </p>
+
+    <div class="example-box">
+      <p><strong>❌</strong> Subir para cima.</p>
+      <p><strong>✔</strong> Subir.</p>
+    </div>
+  </section>
+
+  <!-- BARBARISMO -->
+  <section class="content-section">
+    <h2>Barbarismo</h2>
+
+    <p>
+      O barbarismo consiste no uso inadequado
+      de palavras estrangeiras ou erros de pronúncia.
+    </p>
+
+    <div class="example-box">
+      <p><strong>❌</strong> Ele fez o downloadear do arquivo.</p>
+      <p><strong>✔</strong> Ele fez o download do arquivo.</p>
+    </div>
+  </section>
+
+  <!-- SOLECISMO -->
+  <section class="content-section">
+    <h2>Solecismo</h2>
+
+    <p>
+      O solecismo ocorre por erro de concordância
+      ou regência.
+    </p>
+
+    <div class="example-box">
+      <p><strong>❌</strong> Fazem dois anos.</p>
+      <p><strong>✔</strong> Faz dois anos.</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Em “Subir para cima”, ocorre:</p>
+
+      <button onclick="checkAnswer(this, false)">a) ambiguidade</button>
+      <button onclick="checkAnswer(this, false)">b) eco</button>
+      <button onclick="checkAnswer(this, true)">c) pleonasmo vicioso</button>
+      <button onclick="checkAnswer(this, false)">d) cacofonia</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> O problema em “Fazem dois anos” é:</p>
+
+      <button onclick="checkAnswer(this, true)">a) solecismo</button>
+      <button onclick="checkAnswer(this, false)">b) barbarismo</button>
+      <button onclick="checkAnswer(this, false)">c) hiato</button>
+      <button onclick="checkAnswer(this, false)">d) eco</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

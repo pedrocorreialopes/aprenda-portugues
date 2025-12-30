@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Figuras de Palavras</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Figuras de Palavras</h1>
+    <p class="subtitle">
+      Recursos expressivos baseados no sentido das palavras.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que são figuras de palavras</h2>
+
+    <p>
+      Figuras de palavras são recursos expressivos
+      que alteram o sentido literal das palavras,
+      explorando relações de semelhança, proximidade
+      ou substituição de significados.
+    </p>
+
+    <div class="alert-box">
+      O efeito ocorre no plano semântico,
+      não na estrutura da frase.
+    </div>
+  </section>
+
+  <!-- METÁFORA -->
+  <section class="content-section">
+    <h2>Metáfora</h2>
+
+    <p>
+      A metáfora consiste na transferência de significado
+      baseada em uma relação de semelhança implícita.
+    </p>
+
+    <div class="example-box">
+      <p>O tempo é um rio que corre sem parar.</p>
+    </div>
+  </section>
+
+  <!-- COMPARAÇÃO -->
+  <section class="content-section">
+    <h2>Comparação</h2>
+
+    <p>
+      A comparação estabelece semelhança explícita,
+      por meio de conectivos comparativos.
+    </p>
+
+    <div class="example-box">
+      <p>Ela é forte <u>como</u> uma rocha.</p>
+    </div>
+
+    <div class="alert-box">
+      Na comparação, a semelhança é explícita;
+      na metáfora, é implícita.
+    </div>
+  </section>
+
+  <!-- METONÍMIA -->
+  <section class="content-section">
+    <h2>Metonímia</h2>
+
+    <p>
+      A metonímia ocorre pela substituição de um termo
+      por outro com o qual mantém relação de proximidade.
+    </p>
+
+    <div class="example-box">
+      <p>Li Machado de Assis.</p>
+      <p>Bebeu um copo inteiro.</p>
+    </div>
+  </section>
+
+  <!-- CATACRESE -->
+  <section class="content-section">
+    <h2>Catacrese</h2>
+
+    <p>
+      A catacrese é o uso de uma palavra
+      por falta de termo específico.
+    </p>
+
+    <div class="example-box">
+      <p>Pé da mesa.</p>
+      <p>Braço da cadeira.</p>
+    </div>
+  </section>
+
+  <!-- SINÉDOQUE -->
+  <section class="content-section">
+    <h2>Sinédoque</h2>
+
+    <p>
+      A sinédoque é um tipo de metonímia
+      baseada na relação parte ↔ todo.
+    </p>
+
+    <div class="example-box">
+      <p>Precisamos de mais braços para o trabalho.</p>
+    </div>
+  </section>
+
+  <!-- PERÍFRASE -->
+  <section class="content-section">
+    <h2>Perífrase</h2>
+
+    <p>
+      A perífrase consiste em substituir um termo
+      por uma expressão que o caracteriza.
+    </p>
+
+    <div class="example-box">
+      <p>A Cidade Maravilhosa acordou cedo.</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Em “O tempo é um rio”, ocorre:</p>
+
+      <button onclick="checkAnswer(this, true)">a) metáfora</button>
+      <button onclick="checkAnswer(this, false)">b) comparação</button>
+      <button onclick="checkAnswer(this, false)">c) metonímia</button>
+      <button onclick="checkAnswer(this, false)">d) perífrase</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Em “Li Machado de Assis”, ocorre:</p>
+
+      <button onclick="checkAnswer(this, false)">a) metáfora</button>
+      <button onclick="checkAnswer(this, true)">b) metonímia</button>
+      <button onclick="checkAnswer(this, false)">c) comparação</button>
+      <button onclick="checkAnswer(this, false)">d) catacrese</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

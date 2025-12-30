@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Período Composto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Período Composto</h1>
+    <p class="subtitle">
+      Estudo das orações que formam um mesmo período.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que é período composto</h2>
+
+    <p>
+      Período composto é aquele que apresenta
+      <strong>duas ou mais orações</strong>,
+      ou seja, dois ou mais verbos ou locuções verbais.
+    </p>
+
+    <div class="example-box">
+      <p>Estudei <u>e passei</u>.</p>
+      <p>Quando cheguei, <u>ele saiu</u>.</p>
+    </div>
+
+    <div class="alert-box">
+      O critério para identificar o período composto
+      é o número de verbos, e não o tamanho da frase.
+    </div>
+  </section>
+
+  <!-- IDENTIFICAÇÃO -->
+  <section class="content-section">
+    <h2>Identificação das orações</h2>
+
+    <p>
+      Cada verbo ou locução verbal corresponde a uma oração.
+    </p>
+
+    <div class="example-box">
+      <p>
+        Quando <u>cheguei</u>, ele <u>saiu</u>.<br>
+        (duas orações)
+      </p>
+    </div>
+  </section>
+
+  <!-- CLASSIFICAÇÃO GERAL -->
+  <section class="content-section">
+    <h2>Classificação do período composto</h2>
+
+    <p>
+      O período composto pode ser:
+    </p>
+
+    <ul class="list">
+      <li>por <strong>coordenação</strong>;</li>
+      <li>por <strong>subordinação</strong>.</li>
+    </ul>
+  </section>
+
+  <!-- COORDENAÇÃO -->
+  <section class="content-section">
+    <h2>Período composto por coordenação</h2>
+
+    <p>
+      O período é composto por coordenação quando
+      as orações são independentes sintaticamente.
+    </p>
+
+    <div class="example-box">
+      <p>Ele estudou <u>e passou</u>.</p>
+      <p>Cheguei cedo, <u>mas esperei</u>.</p>
+    </div>
+
+    <div class="alert-box">
+      As orações coordenadas podem ser sindéticas ou assindéticas.
+    </div>
+  </section>
+
+  <!-- SUBORDINAÇÃO -->
+  <section class="content-section">
+    <h2>Período composto por subordinação</h2>
+
+    <p>
+      O período é composto por subordinação quando
+      uma oração depende sintaticamente da outra.
+    </p>
+
+    <div class="example-box">
+      <p><u>Quando cheguei</u>, ele saiu.</p>
+      <p>Espero <u>que você estude</u>.</p>
+    </div>
+
+    <div class="alert-box">
+      A oração subordinada exerce função sintática
+      em relação à oração principal.
+    </div>
+  </section>
+
+  <!-- DIFERENÇA -->
+  <section class="content-section">
+    <h2>Coordenação × subordinação</h2>
+
+    <div class="compare-box">
+      <p>
+        <strong>Coordenação:</strong><br>
+        Orações independentes.
+      </p>
+
+      <p>
+        <strong>Subordinação:</strong><br>
+        Uma oração depende da outra.
+      </p>
+    </div>
+  </section>
+
+  <!-- PONTUAÇÃO -->
+  <section class="content-section">
+    <h2>Pontuação no período composto</h2>
+
+    <p>
+      A pontuação no período composto depende
+      da relação entre as orações.
+    </p>
+
+    <div class="example-box">
+      <p>Ele estudou, <u>mas</u> não passou.</p>
+      <p><u>Quando</u> chegou, saiu.</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> O período “Ele estudou e passou” é:</p>
+
+      <button onclick="checkAnswer(this, true)">a) composto por coordenação</button>
+      <button onclick="checkAnswer(this, false)">b) composto por subordinação</button>
+      <button onclick="checkAnswer(this, false)">c) simples</button>
+      <button onclick="checkAnswer(this, false)">d) sem oração</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Em “Espero que você venha”, o período é composto por:</p>
+
+      <button onclick="checkAnswer(this, false)">a) coordenação</button>
+      <button onclick="checkAnswer(this, true)">b) subordinação</button>
+      <button onclick="checkAnswer(this, false)">c) justaposição</button>
+      <button onclick="checkAnswer(this, false)">d) enumeração</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

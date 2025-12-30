@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pontuação | Português</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <link rel="stylesheet" href="../assets/css/layout.css" />
+  <link rel="stylesheet" href="../assets/css/components.css" />
+</head>
+<body>
+
+<header class="header">
+  <h1>Pontuação</h1>
+  <p>Módulo 15 — Língua Portuguesa</p>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>Conceito</h2>
+    <p>
+      Pontuação é o conjunto de sinais gráficos utilizados para
+      organizar o texto, indicar pausas, delimitar estruturas sintáticas
+      e orientar o sentido da leitura.
+    </p>
+
+    <div class="alert-box">
+      A pontuação depende da estrutura sintática da frase e do sentido que se deseja construir.
+    </div>
+  </section>
+
+  <!-- HIERARQUIA -->
+  <section class="content-section">
+    <h2>Hierarquia dos sinais de pontuação</h2>
+
+    <div class="alert-box">
+      1️⃣ Ponto final — encerra o período<br>
+      2️⃣ Vírgula — organiza a estrutura interna da frase<br>
+      3️⃣ Demais sinais — uso específico e complementar
+    </div>
+  </section>
+
+  <!-- PONTO FINAL -->
+  <section class="content-section">
+    <h2>Ponto final</h2>
+
+    <div class="example-box">
+      <p>✔ O aluno concluiu o curso.</p>
+    </div>
+  </section>
+
+  <!-- VÍRGULA -->
+  <section class="content-section">
+    <h2>Vírgula</h2>
+
+    <div class="alert-box">
+      ❗ Regra fundamental: não se separa por vírgula o sujeito do verbo
+      nem o verbo de seus complementos.
+    </div>
+
+    <div class="example-box">
+      <p>❌ O aluno, estudou muito.</p>
+      <p>✔ O aluno estudou muito.</p>
+    </div>
+
+    <h3>Usos principais da vírgula</h3>
+
+    <div class="example-box">
+      <p><strong>Termos deslocados:</strong></p>
+      <p>✔ Ontem, ele faltou à aula.</p>
+    </div>
+
+    <div class="example-box">
+      <p><strong>Elementos explicativos:</strong></p>
+      <p>✔ João, que é médico, viajou.</p>
+    </div>
+
+    <div class="example-box">
+      <p><strong>Enumeração:</strong></p>
+      <p>✔ Comprei livros, cadernos e canetas.</p>
+    </div>
+
+    <div class="example-box">
+      <p><strong>Vocativo:</strong></p>
+      <p>✔ Alunos, atenção à explicação.</p>
+    </div>
+
+    <div class="example-box">
+      <p><strong>Aposto:</strong></p>
+      <p>✔ Pedro, meu amigo, chegou cedo.</p>
+    </div>
+  </section>
+
+  <!-- DOIS-PONTOS -->
+  <section class="content-section">
+    <h2>Dois-pontos</h2>
+
+    <div class="example-box">
+      <p>✔ Ele explicou o motivo: estava doente.</p>
+      <p>✔ Trouxe tudo: livros, cadernos e lápis.</p>
+    </div>
+  </section>
+
+  <!-- INTERROGAÇÃO E EXCLAMAÇÃO -->
+  <section class="content-section">
+    <h2>Interrogação e Exclamação</h2>
+
+    <div class="example-box">
+      <p>✔ Você entendeu a explicação?</p>
+      <p>✔ Que ótimo resultado!</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- Identificação -->
+    <div class="exercise" data-correct="incorreta">
+      <p>Identifique a frase com erro de pontuação:</p>
+      <label><input type="radio" name="pt1" value="incorreta"> O aluno, respondeu corretamente.</label>
+      <label><input type="radio" name="pt1" value="correta"> O aluno respondeu corretamente.</label>
+      <button class="btn check-btn">Verificar</button>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- Correção -->
+    <div class="exercise" data-correct="corrigida">
+      <p>Reescreva corretamente:</p>
+      <p><em>Ontem ele estudou muito.</em></p>
+      <label><input type="radio" name="pt2" value="corrigida"> Ontem, ele estudou muito.</label>
+      <label><input type="radio" name="pt2" value="incorreta"> Ontem ele, estudou muito.</label>
+      <button class="btn check-btn">Verificar</button>
+      <div class="feedback"></div>
+    </div>
+
+    <!-- Sentido -->
+    <div class="exercise" data-correct="correta">
+      <p>Escolha a frase correta:</p>
+      <label><input type="radio" name="pt3" value="correta"> Vamos comer, crianças.</label>
+      <label><input type="radio" name="pt3" value="incorreta"> Vamos comer crianças.</label>
+      <button class="btn check-btn">Verificar</button>
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Português — Módulo Pontuação</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>

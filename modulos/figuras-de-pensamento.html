@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Figuras de Pensamento</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Figuras de Pensamento</h1>
+    <p class="subtitle">
+      Recursos expressivos baseados na ideia e no raciocínio.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que são figuras de pensamento</h2>
+
+    <p>
+      Figuras de pensamento são recursos expressivos que atuam
+      no plano das ideias e do raciocínio,
+      alterando o sentido lógico ou emocional do enunciado,
+      sem modificar a forma das palavras.
+    </p>
+
+    <div class="alert-box">
+      Nas figuras de pensamento, o efeito está na ideia transmitida,
+      e não na estrutura sonora ou lexical.
+    </div>
+  </section>
+
+  <!-- IRONIA -->
+  <section class="content-section">
+    <h2>Ironia</h2>
+
+    <p>
+      A ironia ocorre quando se afirma o contrário
+      do que realmente se quer dizer,
+      com intenção crítica ou humorística.
+    </p>
+
+    <div class="example-box">
+      <p>Que ótimo! Cheguei atrasado outra vez.</p>
+    </div>
+  </section>
+
+  <!-- EUFEMISMO -->
+  <section class="content-section">
+    <h2>Eufemismo</h2>
+
+    <p>
+      O eufemismo suaviza uma ideia desagradável,
+      dura ou chocante.
+    </p>
+
+    <div class="example-box">
+      <p>Ele partiu desta para melhor.</p>
+    </div>
+  </section>
+
+  <!-- HIPÉRBOLE -->
+  <section class="content-section">
+    <h2>Hipérbole</h2>
+
+    <p>
+      A hipérbole consiste no exagero intencional
+      para enfatizar uma ideia.
+    </p>
+
+    <div class="example-box">
+      <p>Esperei uma eternidade.</p>
+    </div>
+  </section>
+
+  <!-- ANTÍTESE -->
+  <section class="content-section">
+    <h2>Antítese</h2>
+
+    <p>
+      A antítese ocorre pela aproximação
+      de ideias opostas.
+    </p>
+
+    <div class="example-box">
+      <p>É um misto de amor e ódio.</p>
+    </div>
+  </section>
+
+  <!-- PARADOXO -->
+  <section class="content-section">
+    <h2>Paradoxo</h2>
+
+    <p>
+      O paradoxo apresenta ideias aparentemente contraditórias,
+      mas que revelam um sentido possível.
+    </p>
+
+    <div class="example-box">
+      <p>É ferida que dói e não se sente.</p>
+    </div>
+  </section>
+
+  <!-- GRADAÇÃO -->
+  <section class="content-section">
+    <h2>Gradação</h2>
+
+    <p>
+      A gradação ocorre quando ideias são apresentadas
+      em sequência crescente ou decrescente.
+    </p>
+
+    <div class="example-box">
+      <p>Sussurrou, falou, gritou.</p>
+    </div>
+  </section>
+
+  <!-- APÓSTROFE -->
+  <section class="content-section">
+    <h2>Apóstrofe</h2>
+
+    <p>
+      A apóstrofe consiste na invocação direta
+      de uma pessoa, objeto ou ideia abstrata.
+    </p>
+
+    <div class="example-box">
+      <p>Ó tempo, devolve-me os dias perdidos!</p>
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Em “Esperei uma eternidade”, ocorre:</p>
+
+      <button onclick="checkAnswer(this, true)">a) hipérbole</button>
+      <button onclick="checkAnswer(this, false)">b) ironia</button>
+      <button onclick="checkAnswer(this, false)">c) eufemismo</button>
+      <button onclick="checkAnswer(this, false)">d) antítese</button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> A figura presente em “É ferida que dói e não se sente” é:</p>
+
+      <button onclick="checkAnswer(this, false)">a) antítese</button>
+      <button onclick="checkAnswer(this, true)">b) paradoxo</button>
+      <button onclick="checkAnswer(this, false)">c) hipérbole</button>
+      <button onclick="checkAnswer(this, false)">d) eufemismo</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>
