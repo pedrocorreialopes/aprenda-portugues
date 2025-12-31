@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Regência Nominal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Regência Nominal</h1>
+    <p class="subtitle">
+      Relação entre nomes e seus complementos preposicionados.
+    </p>
+  </div>
+</header>
+
+<nav class="nav">
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="interpretacao.html">Interpretação de Textos</a></li>
+    <li><a href="fonetica.html">Fonética</a></li>
+    <li><a href="separacao-silabica.html">Separação Silábica</a></li>
+    <li><a href="acentuacao-grafica.html"">Acentuação Gráfica</a></li>
+    <li><a href="ortografia.html">Ortografia</a></li>
+    <li><a href="significacao-das-palavras.html">Significação das Palavras</a></li>
+    <li><a href="classes-de-palavras.html">Classes de Palavras</a></li>
+    <li><a href="flexao-nominal.html">Flexão Nominal</a></li>
+    <li><a href="flexao-verbal.html">Flexão Verbal</a></li>
+    <li><a href="modulos.html" class="active">Demais Módulos</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- CONCEITO -->
+  <section class="content-section">
+    <h2>O que é regência nominal</h2>
+
+    <p>
+      Regência nominal é o estudo da relação
+      entre um nome (substantivo, adjetivo ou advérbio)
+      e o termo que o complementa,
+      geralmente introduzido por preposição.
+    </p>
+
+    <div class="alert-box">
+      Assim como os verbos,
+      alguns nomes exigem preposição específica.
+    </div>
+  </section>
+
+  <!-- NOMES REGENTES -->
+  <section class="content-section">
+    <h2>Nomes que exigem complemento</h2>
+
+    <p>
+      Exigem complemento nominal:
+    </p>
+
+    <ul class="list">
+      <li>substantivos</li>
+      <li>adjetivos</li>
+      <li>advérbios</li>
+    </ul>
+
+    <div class="example-box">
+      <p>amor <strong>a</strong> alguém</p>
+      <p>orgulho <strong>de</strong> você</p>
+      <p>favorável <strong>a</strong> mudanças</p>
+      <p>longe <strong>de</strong> casa</p>
+    </div>
+  </section>
+
+  <!-- SUBSTANTIVOS -->
+  <section class="content-section">
+    <h2>Regência dos substantivos</h2>
+
+    <p>
+      Muitos substantivos derivados de verbos
+      conservam a mesma regência verbal.
+    </p>
+
+    <div class="example-box">
+      <p>obediência <strong>a</strong> regras</p>
+      <p>necessidade <strong>de</strong> ajuda</p>
+      <p>respeito <strong>a</strong> professores</p>
+    </div>
+  </section>
+
+  <!-- ADJETIVOS -->
+  <section class="content-section">
+    <h2>Regência dos adjetivos</h2>
+
+    <p>
+      Certos adjetivos exigem complemento
+      introduzido por preposição.
+    </p>
+
+    <div class="example-box">
+      <p>apto <strong>a</strong> trabalhar</p>
+      <p>ansioso <strong>por</strong> notícias</p>
+      <p>fiel <strong>a</strong> princípios</p>
+      <p>orgulhoso <strong>de</strong> você</p>
+    </div>
+  </section>
+
+  <!-- ADVÉRBIOS -->
+  <section class="content-section">
+    <h2>Regência dos advérbios</h2>
+
+    <p>
+      Alguns advérbios exigem complemento
+      preposicionado.
+    </p>
+
+    <div class="example-box">
+      <p>perto <strong>de</strong> casa</p>
+      <p>longe <strong>de</strong> você</p>
+    </div>
+  </section>
+
+  <!-- ERROS COMUNS -->
+  <section class="content-section">
+    <h2>Erros comuns de regência nominal</h2>
+
+    <div class="example-box">
+      <p><strong>❌</strong> Ele tem horror à mentira.</p>
+      <p><strong>✔</strong> Ele tem horror <strong>a</strong> mentira.</p>
+    </div>
+
+    <div class="alert-box">
+      Nem toda preposição “a” gera crase.
+      A crase depende da fusão de duas vogais “a”.
+    </div>
+  </section>
+
+  <!-- EXERCÍCIOS -->
+  <section class="content-section">
+    <h2>Exercícios</h2>
+
+    <!-- QUESTÃO 1 -->
+    <div class="exercise">
+      <p><strong>1.</strong> Assinale a alternativa correta:</p>
+
+      <button onclick="checkAnswer(this, true)">
+        a) Ele é fiel a seus princípios.
+      </button>
+      <button onclick="checkAnswer(this, false)">
+        b) Ele é fiel de seus princípios.
+      </button>
+      <button onclick="checkAnswer(this, false)">
+        c) Ele é fiel em seus princípios.
+      </button>
+      <button onclick="checkAnswer(this, false)">
+        d) Ele é fiel por seus princípios.
+      </button>
+
+      <div class="feedback"></div>
+    </div>
+
+    <!-- QUESTÃO 2 -->
+    <div class="exercise">
+      <p><strong>2.</strong> Complete corretamente: Ele estava orgulhoso ___ filho.</p>
+
+      <button onclick="checkAnswer(this, false)">a) a</button>
+      <button onclick="checkAnswer(this, true)">b) de</button>
+      <button onclick="checkAnswer(this, false)">c) por</button>
+      <button onclick="checkAnswer(this, false)">d) em</button>
+
+      <div class="feedback"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© Curso de Língua Portuguesa</p>
+</footer>
+
+<script src="../assets/js/exercises.js"></script>
+</body>
+</html>
